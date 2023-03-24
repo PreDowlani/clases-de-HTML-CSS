@@ -1,0 +1,50 @@
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ /* Posicionamiento Relativo ; Absoluto ; Fixed (Fijo) ; Sticky  */
+
+ /*Posicionamiento Relativo : */
+ .cajas {
+    border: 3px solid blue;
+    width: 50%;
+    height: 200vh;
+    margin-left: 100px;
+    position:relative;
+
+ }
+
+ .caja {
+    width: 80px;
+    height: 80px;
+ }
+
+ .caja-uno {
+    background-color: yellow;
+    position: absolute; /*lOS DOS TIENE QUE SE ABSOLUTE PARA QUE SE MUEVA UNA CAJA ENCIMA DE LA OTRA*/
+    z-index:5;
+    
+}
+
+.caja-dos {
+    background-color: lightgreen;
+    /* position: relative; */
+     position:absolute; 
+     left: 25px; 
+     top: 0px; 
+     z-index:2
+}
+
+.caja-tres {
+    background-color: violet;
+    position: fixed;
+    /* POsicionamiento FIXED  La caja se queda fija !! */
+}
+
+ 
+
+ /* Posicinamiento Absoluto :  */

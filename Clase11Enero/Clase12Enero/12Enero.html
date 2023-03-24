@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios en HTML</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <form action="http://www.se-envia-al-servidor-.com" method="">
+      <!-- Caja de Texto -->
+      <div>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Solo Nomnbre.Sin Apellidos."
+          required
+        />
+      </div>
+      <div>
+        <label for=" Apellidos    ">Apellidos </label>
+        <input
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          placeholder="Solo Apellidos."
+        />
+      </div>
+      <!-- Contraseña -->
+      <div>
+        <label for="password"
+          >Introduzca una Contraseña (de 6 a 9 caracteres)</label
+        >
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          minlength="6"
+          maxlength="9"
+        />
+      </div>
+      <!-- Caja de introdución e-mail -->
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="Introduzca su correo electrónico"
+          required
+        />
+        <!-- Introdución de datos numéricos -->
+      </div>
+      <div>
+        <label for="year">Año de Nacimeinto</label>
+        <input type="number" name="year" id="year" min="1910" max="1999" />
+      </div>
+      <br />
+      <!-- Caja de selección de fechas -->
+      <div>
+        <label for="date">Introduzca fecha de salida</label>
+        <input type="date" name="date" id="date" />
+        <br />
+      </div>
+      <!-- Selección de color -->
+      <div>
+        <label for="color">Selecione el color que desee</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <br />
+      <!-- Lista de sugerencias -->
+      <div>
+        <label for="selección">Selecione animal de compañía</label>
+        <input type="text" list="mascotas" name="" id="" />
+        <datalist id="mascotas">
+          <option value="gato"></option>
+          <option value="perro"></option>
+          <option value="anaconda"></option>
+          <option value="orca"></option>
+        </datalist>
+      </div>
+      <br />
+      <!-- Lista desplegable -->
+      <div>
+        <label for="mascotas">Selecione un animal de compañía preferido</label>
+        <select name="mascotas" id="mascotas">
+          <option>Selecione</option>
+          <option value="gato">Gato</option>
+          <option value="perro" selected>Perro</option>
+          <option value="anaconda">Anaconda</option>
+          <option value="orca">Orca</option>
+        </select>
+      </div>
+      <!-- Checkbox (casilla de verificación) -->
+      <div>
+        <label for="frontend">¿Desarollador frontend?</label>
+        <input type="checkbox" name="frontend" id="frontend" />
+        <label for="frontend">¿Desarollador backend?</label>
+        <input type="checkbox" name="frontend" id="frontend" />
+      </div>
+      <br />
+      <!-- Botones de radio o de Selección -->
+      <div>
+        <input type="radio" name="color" id="blanco" />
+        <label for="blanco">Blanco</label>
+      </div>
+      <!-- Botones de radio o de Selección  -->
+      <div>
+        <input type="radio" name="color" id="negro" />
+        <label for="negro">Negro</label>
+      </div>
+
+      <br />
+      <br />
+      <!-- Area de texto -->
+      <div>
+        <label for="curriculum">Escriba su curriculum</label>
+        <br />
+        <textarea
+          name="curriculum"
+          id="curriculum"
+          cols="30"
+          rows="10"
+          maxlength="15"
+        ></textarea>
+      </div>
+      <!-- Control de deslizamiento o Slider -->
+      <div>
+        <input
+          type="range"
+          name="edad"
+          id="rango"
+          min="0"
+          max="100"
+          value="50"
+        />
+      </div>
+      <br /><br /><br />
+      <!-- Carga de ficheros -->
+      <div>
+        <input type="file" name="" id="" accept=".jpg, .png" />
+        <input type="file" name="" id="" multiple accept="image/*" />
+        <input type="file" name="" id="" multiple accept="audio/*" />
+        <input type="file" name="" id="" multiple accept="video/*" />
+      </div>
+      <!-- Crear el boton enivar , submit o borrar -->
+      <div>
+        <input type="button" value="Enviar" />
+        <br />
+        <button type="submit">Envia datos</button>
+        <br />
+        <button type="reset">Borrar datos</button>
+        <br />
+      </div>
+    </form>
+  </body>
+</html>

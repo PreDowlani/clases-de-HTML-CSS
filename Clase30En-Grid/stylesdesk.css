@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.gcontenedor {
+    text-align: center;
+    width:100%;
+    display: grid ;
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows:repeat(12 , 80px);
+
+}
+
+
+.header {
+    background-color: aquamarine;
+    grid-column: 1/3;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.hero {
+    background-color: green;
+    grid-row: 2/6;
+    grid-column: 1/8;
+
+}
+
+
+.menu {
+    background-color: coral;
+    grid-column: 3/8;
+    grid-row: 2/1;
+    display: flex;
+}
+
+.nave {
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.css {
+    background-image: url(https://th.bing.com/th/id/OIP.xhnzhHcorvOTDzjLVg0LAwHaI4?pid=ImgDet&rs=1);
+    width: 70px;
+    height: 80px;
+    background-size: contain;
+}
+
+.nave li {
+    display: inline;
+}
+
+.nave li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.main {
+    background-color: burlywood;
+    grid-column: 1/4;
+    grid-row: 6/10;
+
+}
+
+
+
+.banner {
+    background-color:chartreuse ;
+    grid-column: 1/8;
+    grid-row: 10/12;
+
+}
+
+.extra {
+    background-color: crimson;
+    grid-column: 6/8;
+    grid-row: 8/10;
+
+}
+
+.image {
+    background-color: darkseagreen;
+    grid-column: 6/8;
+    grid-row: 6/8;
+
+}

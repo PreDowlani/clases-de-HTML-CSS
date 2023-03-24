@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(7 , 100px);
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: aquamarine;
+
+}
+
+.hero {
+    background-color: green;
+
+}
+
+.menu {
+    background-color: coral;
+
+}
+
+
+.main {
+    background-color: burlywood;
+
+}
+
+
+.banner {
+    background-color:chartreuse ;
+
+}
+
+.extra {
+    background-color: crimson;
+
+}
+
+
+.image {
+    background-color: darkseagreen;
+
+}

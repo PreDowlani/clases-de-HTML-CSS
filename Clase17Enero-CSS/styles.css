@@ -1,0 +1,50 @@
+/* SELECTORES */
+
+.navega li {
+    color:red 
+ /*solos pinta rojo los puntos */
+} 
+
+.navega a {
+    color: aqua;
+    /*solo pinta lo que esta lo que esta en el a:href-.... etc */
+}
+
+/*Selector Adyacente */
+h2+button {
+    background-color: greenyellow;
+}
+
+/*Selector de Atributos */
+input [type = "text"] {
+    background-color: aqua;
+}
+
+input [type="email"] {
+    background-color: bisque;
+}
+
+/* Pseuido-Clases */
+button:hover { /*cambia de color cuando pasas el raton por encima */
+    background-color: blanchedalmond;
+}
+
+button:active {
+    background-color: yellow; /*cambia de color cuando pinches en el boton enviar */
+}
+
+#searc:focus {
+    background-color:chartreuse ;
+}
+ 
+.parrafos p:first-child {
+    color: gainsboro !important ; /*sera el unico que no cambiara de color .preferencia ante todo ! */
+}
+
+.parrafos p:last-child {
+    color: black;
+}
+
+.parrafos p:nth-child(2) {
+    color: cyan; /*nth child ( 2n+1) para las filas impar ! (2+1) para los pares ! */
+}

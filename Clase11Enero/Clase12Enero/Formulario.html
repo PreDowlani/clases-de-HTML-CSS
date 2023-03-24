@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario de Alta</h1>
+    <form action="hptt://www.alta-ayuntamiendo-mogan.es"></form>
+    <br />
+    <h2>Datos Personales</h2>
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="solo nombre" />
+    </div>
+    <div>
+      <label for="apellido">Apellidos</label>
+      <input
+        type="text"
+        name="apellidos"
+        id="apellido"
+        placeholder="solo apellidos"
+      />
+    </div>
+    <div>
+      <label for="edad">Edad</label>
+      <input type="number" name="edad" id="edad" />
+    </div>
+    <div>
+      <label for="nacimeinto">Fecha de Nacimiento</label>
+      <input
+        type="number"
+        -
+        name="year"
+        -
+        id="year"
+        placeholder="dia-mes-año"
+      />
+    </div>
+    <div>
+      <label for="sexo"> <strong>Sexo :</strong> </label>
+    </div>
+    <div>
+      <label for="hombre"> <em>Hombre</em> </label>
+      <input type="radio" name="hombre" id="hombre" />
+    </div>
+    <div>
+      <label for="mujer"> <em>Mujer</em> </label>
+      <input type="checkbox" name="mujer" id="mujer" />
+    </div>
+    <hr />
+    <div>
+      <label for="dirreción">Dirreción</label>
+      <input
+        type="text"
+        name="dirreción"
+        id="dirreción"
+        placeholder="avenida - calle"
+      />
+    </div>
+    <div>
+      <label for="número">Número</label>
+      <input type="number" name="número" id="" placeholder="1234" />
+    </div>
+    <div>
+      <label for="correo">Email</label>
+      <input
+        type="email"
+        name="correo"
+        id="email"
+        placeholder="correo electrónico"
+      />
+    </div>
+    <hr />
+    <div>
+      <label for="hijos">Menores a Cargo : </label>
+      <input type="text" list="hijos" name="" id="" placeholder="selecionar" />
+      <datalist id="hijos">
+        <select name="hijos" id="hijos"></select>
+        <option value="Sí"></option>
+        <option value="No" selected></option>
+      </datalist>
+    </div>
+    <br />
+    <hr />
+
+    <div>
+      <label for="contrato"> <strong>Contrato laboral</strong> </label>
+      <select name="contrato" id="contrato">
+        <option>Selecionar</option>
+        <option value="ocupado">Ocupado</option>
+        <option value="autónomo">Autónomo</option>
+        <option value="desempleado">Desmpleado</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="trabjao">Puesto de Trabajo deseado</label>
+      <input type="text" name="trabajo" id="trabajo" />
+    </div>
+  </body>
+</html>

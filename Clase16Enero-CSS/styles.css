@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+/* import mejor lo sacas directo online y lo pegas aqui en el STYLESHEET */
+
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+h1 , h2{
+    color: brown;
+}
+
+/* h2{color: blueviolet;
+} */
+
+/* Rgala CSS */
+section {  /*Selector*/
+    color: rgb(0, 174, 255); /*prodiedad : valor */
+     /*background-color: blueviolet; */
+}
+
+.zona1 {
+    color: crimson;
+
+}
+
+.zona2 {
+    color:darkgoldenrod;
+
+}
+
+form {
+    color: greenyellow;
+}
+
+button {
+    color: inherit; 
+}
+
+#zona3 {
+    color: green;
+}
+
+/* CAMBIAR color,texto, para los paarafos   - en el FONT SIZE : mejor usar el REM */
+p {
+    /*font-family:'Times New Roman', Times, serif;/*
+    text-align:center;
+    font-size: 20px;
+    font-weight:700;
+    /* text-decoration-line: underline;
+    text-decoration-style:dashed ;
+    text-decoration-color:rgb(255, 196, 0);
+    text-decoration-thickness: 5px; */
+    font-family:'Times New Roman', Times, serif;
+
+    text-decoration: underline dashed blue 5px;
+    line-height: 24px;
+    letter-spacing: 5px;
+}
+
+#segunda {
+    text-decoration:overline rgb(235, 73, 73) 2px
+    ;
+}

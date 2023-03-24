@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Row - Row Reverse ; Column - Column Reverse */
+.contendor {
+    font-weight: bold;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: row; /*HORIZONTAL */
+    flex-direction: column; /*VERTICAL */
+    justify-content: flex-start; /*Para alinear Horizontalmente */
+    justify-content: flex-end;  /*para alinear horizontalmnete pero de izq */
+    justify-content: center; /*para alinear en el centro !! */
+    justify-content: space-between;  /*separa cada caja con el mismo espacio ! NO HAY MARGEN  */
+    justify-content: space-around;  /*sepeara la caja con un margen en la izq como en la derecha (FINAL ) */
+    flex-wrap: wrap; /*ppara se no se sobresalga la caja y se Colocen en la Siguiente FILA ! */
+    flex-wrap: nowrap; /*la caja se bajan a la hora de estrecha */
+    align-items: flex-start; /*Alinear */
+    align-items: flex-end; /*alinea se va ABjao */
+    align-items: center; /* alinear en el centro */
+    align-items: stretch; /*te estira todo asta el fonto VERTICALMENTE */
+    flex-basis: 200px; /*es como el WIDTH pero es mejor USAR EL FLEX BASIS  SOLO PARA EL FLEX BOX */
+    flex-grow: 1; /*Para crecer solo esa caja o ese div o elmento */
+
+    /* justify-content: center; este esl alineamiento HORIZONTAL
+    align-items: center;    este es el alineamiento VERTICAL 
+    ESTOS DOS JUNTOS LOS ELEMENTROS EN EL CENTRO CENTRO */
+}

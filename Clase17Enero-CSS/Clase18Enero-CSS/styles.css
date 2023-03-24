@@ -1,0 +1,55 @@
+/* BOX MODEL */
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* html {
+    /* 1rem = 16px. Con lo cual 62.5% de 1rem = 10px */
+    /* 62.5% de 16px = 10px */
+    /* font-size: 62.5%; OPCIONAL */
+
+
+.caja1 {
+    color: red;
+    /* background-color: darkgoldenrod; */
+    /* background: url(logo.webp); se puede añadir url online , copia y pega */
+    /* background-size:contain; */
+    /* background-position:bottom; */
+    /* background:linear-gradient(red,blue); */
+    background: radial-gradient(rgb(223, 223, 104), rgb(214, 204, 204), rgb(157, 185, 157));
+    background-size: cover;
+    
+    /* px,rem.porcentaje,vw, vh,fr,em */
+    width: 500px;
+    height: 300px;
+    /* border-right: 20px;
+    border-top: 10px;
+    border-style: solid;
+    border-color: aqua;
+    /* border-radius: 10px; para darle forma a la caja  */
+    /* border-radius: 50px; */  /*border-radius : 10px 10px 5px 5px -arriba derecha abajo izq. sentido de reloj*/
+    border: 5px solid blue ; /*ancho , tipo , color del borde */
+    margin-bottom: 5px;
+    /* margin-left: 25%; */
+    /* margin: auto; */
+    text-align: justify;
+    /* aqui no esta ajustado el parrafo xk no tiene el PADDING */
+}
+
+.caja2 {
+    background-color: rgb(194, 16, 218);
+    /* px,rem.porcentaje,vw, vh,fr,em */
+    width: 500px;
+    height: 200px;
+    border: 5px solid rgb(22, 194, 185);
+    /* margin-top: 10px; */
+    /* margin: 10px 10px 10px 10px; */
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5rem; /*1.5REM =24PX*/ /*RECOMENDABLE PARA LOS PARRAFOS*/
+    
+}

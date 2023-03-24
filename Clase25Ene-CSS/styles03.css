@@ -1,0 +1,214 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:#dfd8dc;
+}
+
+.barra {
+    background-color:black;
+    color: rgb(255, 250, 250);
+    font-size: large;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: end;
+    
+}
+.logo {
+    margin-right: 20px;
+}
+
+.nav {
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.navegacion ul {
+    list-style-type: none;
+}
+
+.navegacion li  {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.navegacion li a {
+    color:black;
+}
+.imagen01 {
+    background-image: url(https://logos-marques.com/wp-content/uploads/2021/01/PlayStation-logo.png);
+    border: 5px;
+    display: flex;
+    width: 60px;
+    height: 40px;
+    background-position: top;
+    background-size:cover;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.zona1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+
+}
+.play{ 
+    color: white;
+    font-size: 50px;
+    margin-right: 210px;
+    margin-bottom: 80px;
+
+
+}
+
+.zona1 {
+    background-image: url(https://i.pinimg.com/originals/66/c7/3a/66c73acdb0659015912038e374213027.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+
+.zona2 {
+    border: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 400vh;
+    
+}
+
+.zona3 {
+    border: 5px solid;
+
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    line-height: 50px;
+}
+
+.columna ul {
+    list-style-type: none;
+}
+
+.zona4 {
+    border: 5px;
+    flex-shrink: 50;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.play01 {
+    border: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.ps1 {
+    border: 3px;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen02 {
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/eorx4igsnokpmul1prdw.jpg);
+    width: 500px;
+    height: 300px;
+    border: 3px;
+    background-size:cover;
+}
+
+.play02 {
+    border: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    height: 80vh;
+    width: 100%;
+}
+
+.ps2 {
+    border: 3px;
+    flex-basis: 300px;
+    height: 353px;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    
+}
+
+.imagen03 {
+    background-image: url(https://th.bing.com/th/id/R.0ffced405ebc9e04fc190a01a4ac8eb1?rik=4cbg%2bqTJF7b4lQ&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2fesvideoconsolas%2fimages%2ff%2ffc%2fPlay_Sation_2.jpg%2frevision%2flatest%3fcb%3d20111014203228%26path-prefix%3des&ehk=T%2bYRjVUpmLPJ6WYOsRGdWHELB92sy89ckVl5RrKUPtk%3d&risl=&pid=ImgRaw&r=0);
+    border: 3px;
+    flex-basis: 300px;
+    height: 353px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.play03 {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    
+
+}
+
+.ps3 {
+    width: 300px;
+    height: 200px;
+}
+
+.imagen04 {
+    background-image: url(https://d1eh9yux7w8iql.cloudfront.net/product_images/None_dde69dbc-038b-4fc0-94b2-bfe429d9a847.jpg);
+    flex-basis: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid;
+    margin-left: 300px;
+
+
+}

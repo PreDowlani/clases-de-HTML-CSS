@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gcontenedor {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    text-align: center;
+}
+
+.header {
+    background-color: aquamarine;
+    grid-column: 1/8;
+}
+
+.hero {
+    background-color: green;
+    grid-column: 1/8;
+    grid-row: 2/5;
+}
+
+
+.menu {
+    background-color: coral;
+    grid-row: 5/12;
+}
+
+.main {
+    background-color: burlywood;
+    grid-row: 5/8;
+    grid-column: 2/8;
+}
+
+
+
+.banner {
+    background-color:chartreuse ;
+    grid-column: 2/8;
+    grid-row: 8/10;
+}
+
+.extra {
+    background-color: crimson;
+    grid-column: 2/6;
+    grid-row: 10/12;
+}
+
+.image {
+    background-color: darkseagreen;
+    grid-column: 6/8;
+    grid-row: 10/12;
+}
